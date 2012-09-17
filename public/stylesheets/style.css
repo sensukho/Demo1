@@ -1,0 +1,138 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	border-top: 5px solid #F8EB79;
+	font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+clear {
+	clear: both;
+	border: none;
+}
+header{
+	background: #36291C;
+	height: 120px;
+}
+header section{
+	width: 940px;
+	margin: 0 auto;
+	padding: 20px;
+	clear: both;
+}
+header section img{
+	float: left;
+	height: 90px;
+}
+header section h1{
+	float: left;
+	color: #8dad88;
+	border-left: 1px solid #8dad88;
+	padding-left: 50px;
+	line-height: 55px;
+	font-size: 20px;
+	margin-left: 30px;
+}
+header section input{
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	float: right;
+	background: #584A37;
+	border: 1px solid #7f6e57;
+	padding: 5px;
+	width: 180px;
+	color: #fceb8e;
+	font-size: 16px;
+}
+nav{
+	background: #728f32;
+	background: -webkit-gradient(radial, center, center, 0, center, center, 460, from(#98b15e), to(#738f32));
+	background: -webkit-radial-gradient(circle, #98b15e, #738f32);
+	background: -moz-radial-gradient(circle, #98b15e, #738f32);
+	background: -ms-radial-gradient(circle, #98b15e, #738f32);
+}
+nav ul{
+	margin: 0;
+	padding: 0;
+	width: 940px;
+	margin: 0 auto;
+	list-style: none;
+	height: 55px;
+}
+nav ul li{
+	float: left;
+	height: 21px;
+	margin-top: 6px;
+	margin-right: 10px;
+}
+nav ul li a:hover{
+	background: #4b611a
+}
+nav ul li a{
+	background: #667f27;
+	padding: 10px 20px;
+	display: block;
+	height: 100%;
+	font-size: 26px;
+	text-decoration: none;
+	line-height: 16px;
+	color: white;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+section#slider{
+	background: #d4debb;
+	border-bottom: 1px solid white;
+}
+section#slider iframe{
+	border: 1px solid #809b42;
+	width: 990px;
+	margin-left: -26px;
+	height: 276px;
+}
+section#slider article{
+	width: 900px;
+	margin: 0 auto;
+	padding: 30px;
+}
+section#content{
+	background: #f1f4ea;
+	width: 900px;
+	margin: 0 auto;
+	padding: 30px;
+	min-height: 300px;
+	margin-bottom: 80px;
+}
+section#content article{
+	float: left;
+	width: 600px;
+	margin-right: 20px;
+	background: #fff;
+	border-right: 15px solid #f1f4ea;
+	padding: 20px;
+	-webkit-border-top-right-radius: 10px;
+	-webkit-border-bottom-right-radius: 10px;
+	-moz-border-radius-topright: 10px;
+	-moz-border-radius-bottomright: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+section#content aside{
+	background: #d4debb
+	padding: 20px;
+	margin-left: 655px;
+	-webkit-border-top-right-radius: 10px;
+	-webkit-border-bottom-right-radius: 10px;
+	-moz-border-radius-topright: 10px;
+	-moz-border-radius-bottomright: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+footer{
+	background: #36291C
+	color: #fce878;
+	padding: 30px;
+	position: fixed;
+	width: 100%;
+	bottom: 0px;
+}
